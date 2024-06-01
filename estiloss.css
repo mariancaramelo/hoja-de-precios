@@ -9,7 +9,8 @@ body{
    background-position: center;
 }
 .r{
-
+position: relative;
+top:-100px;
     width: 80%;
     height: 500px;
     
@@ -18,7 +19,7 @@ body{
 }
 .prom{
    backdrop-filter: blur(10px); 
-   border: 1px solid #fff;
+   border: 1px solid #000000;
      width: 24.8%;
      height: 500px;
      float: left;
@@ -26,18 +27,19 @@ body{
 }
 i{
     font-size: 40px;
-   color: azure;
+   color: rgb(0, 0, 0);
    margin-top: 40px;
    margin-left: 100px;
 }
 p{
-    color: azure;
+    color: rgb(0, 0, 0);
     margin-left: 100px;
     margin-top: 10px;
 }
 .dinero{
     font-size: 50px;
-    color: aquamarine;
+    color: 
+    #3d4b9c;
   
 }
 .mensual{
@@ -61,6 +63,6 @@ p{
     margin-top: 80px;
     text-align: center;
     padding: 30px;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #000000;
+    color: #000000;
 }
